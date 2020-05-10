@@ -1,2 +1,0 @@
-# New-Javacord-Homepage
-WIP

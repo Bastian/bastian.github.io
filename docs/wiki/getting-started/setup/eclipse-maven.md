@@ -1,3 +1,0 @@
-# Eclipse + Maven
-
-TODO
