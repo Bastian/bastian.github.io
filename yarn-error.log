@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js dev
+
+PATH: 
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\NuGet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;C:\Program Files\CMake\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\NuGet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\GnuWin32\bin;C:\Program Files (x86)\Gpg4win\..\GnuPG\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\extras\CUPTI\libx64;C:\Program Files\CMake\bin;C:\Users\Bastian\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Bastian\AppData\Local\Programs\Python\Python36\;C:\Users\Bastian\AppData\Local\Programs\;C:\Users\Bastian\VoxelSDK\voxelsdk_bin;C:\Users\Bastian\VoxelSDK\voxelsdk_bin\lib;E:\Workspaces\IdeaProjects\tofbridge\cpp\build\libs\lib;E:\Workspaces\IdeaProjects\tofbridge\cpp\build\libs\bin;C:\Users\Bastian\AppData\Local\Yarn\bin;C:\Program Files (x86)\GitHub CLI\
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\Workspaces\IdeaProjects\javacord-docs\package.json: Unexpected string in JSON at position 136
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "javacord-docs",
+    "version": "1.0.0",
+    "description": "The docs for Javacord",
+    "main": "index.js",
+    "license": "MIT"
+    "scripts": {
+      "dev": "vuepress dev docs",
+      "build": "vuepress build docs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
